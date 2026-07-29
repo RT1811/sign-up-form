@@ -67,11 +67,57 @@ body {
 }
 
 .form-section {
-  background-color: white;
+  padding: 1.5rem 3rem 2rem;
+  background-color: #f5f5f5;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 15%);
+  z-index: 1;
+}
+
+.form-section h1{
+  margin: 0 0 1.5rem;
+  font-size: 1.4rem;
+}
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 4rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.form-control label {
+  margin-bottom: 0.25rem;
+
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.form-control input {
+  height: 2rem;
+  padding: 0.25rem 0.5rem;
+
+  font-size: 1rem;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
 }
 
 .account-section {
-  background-color: #f5f5f5;
+  flex: 1;
+  padding: 2rem 3rem;
+  background-color: #f9fafb;    
 }
 
 .image-sidebar {
@@ -126,3 +172,6 @@ body {
 .image-credit a {
   color: white;
 }
+
+
+
