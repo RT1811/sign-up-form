@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url("./assets/fonts/Norsebold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -6,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Norse Bold", sans-serif;
 }
 
 .page {
@@ -41,4 +48,57 @@ body {
 
 .account-section {
   background-color: #f5f5f5;
+}
+
+.image-sidebar {
+  position: relative;
+  width: 35%;
+  min-height: 100vh;
+
+  background-image: url("./assets/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo-banner {
+  position: absolute;
+  top: 20%;
+
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.odin-logo {
+  height: 125px;
+  width: auto;
+}
+
+.logo-text {
+  color: white;
+  font-family: "Norse Bold", sans-serif;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.image-credit {
+  position: absolute;
+  bottom: 12px;
+
+  width: 100%;
+  margin: 0;
+
+  color: white;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.image-credit a {
+  color: white;
 }
