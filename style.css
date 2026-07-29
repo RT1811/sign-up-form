@@ -13,7 +13,14 @@
 
 body {
   margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.logo-text {
+  color: white;
   font-family: "Norse Bold", sans-serif;
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .page {
